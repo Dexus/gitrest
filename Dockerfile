@@ -1,5 +1,5 @@
 FROM nginx:alpine
-COPY rawgithack.conf index.html /etc/nginx/rawgithack/
-RUN ln -sf /etc/nginx/rawgithack/rawgithack.conf /etc/nginx/conf.d/rawgithack.conf
-VOLUME /var/cache/nginx/rawgithack
+COPY gitrest.conf index.html /etc/nginx/gitrest/
+RUN ln -sf /etc/nginx/gitrest/gitrest.conf /etc/nginx/conf.d/gitrest.conf
+VOLUME /var/cache/nginx/gitrest
 CMD ["nginx", "-g", "daemon off;"]

@@ -1,7 +1,7 @@
-raw.githack.com [![](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+raw.git.rest [![](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 ===============
 
-This is the source code behind [raw.githack.com](https://raw.githack.com).
+This is the source code behind [raw.git.rest](https://raw.git.rest).
 
 The  idea  of this  service  is  inspired from  [rawgit.com](http://rawgit.com)
 (formerly rawgithub.com). I just realized that using a whole framework (node.js
