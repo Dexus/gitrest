@@ -49,9 +49,9 @@ pre { overflow-x: auto; }
 }
 
 .hd .logo {
-  margin: 0 0.2em 0 0.4em;
+  margin: 0.25em .2em 0 .4em;
   float: left;
-  width: 60px;
+  width: 56px;
 }
 
 .hd .nav ul {
